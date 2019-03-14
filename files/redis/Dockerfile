@@ -1,4 +1,4 @@
-FROM redis:3.2
+FROM redis
 LABEL maintainer="gzp@goozp.com"
 
 # set timezome

@@ -43,10 +43,10 @@ services:
         - ../logs/mysql:/var/lib/mysql-logs:rw
         - ./mysql/conf.d:/etc/mysql/conf.d:ro
       environment:
-        MYSQL_ROOT_PASSWORD: 123456
-        MYSQL_DATABASE: zphaldb
-        MYSQL_USER: zphal
-        MYSQL_PASSWORD: zphal123
+        MYSQL_ROOT_PASSWORD: h@!5_root
+        MYSQL_DATABASE: dockerTest
+        MYSQL_USER: common
+        MYSQL_PASSWORD: hef565@!2dw345
       restart: always
       command: "--character-set-server=utf8"
 
